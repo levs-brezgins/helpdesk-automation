@@ -35,7 +35,7 @@ The project has three main modules:
 
 - `DatabaseClient` – Responsible for executing SQL code in the database, creating tables, fetching data, saving data, etc.
 
-- `PyrusClien` – Responsible for interacting with the Pyrus API. It can create new tickets, add messages, close tickets, etc.
+- `PyrusClient` – Responsible for interacting with the Pyrus API. It can create new tickets, add messages, close tickets, etc.
 
 ## 🚀 Getting Started
 
@@ -44,8 +44,8 @@ The project has three main modules:
 
 ### Setup
 ```bash
-git clone https://github.com/levs-brezgins/helpdesk.git
-cd helpdesk
+git clone git@github.com:levs-brezgins/helpdesk-automation.git
+cd helpdesk-automation
 cp .env.sample .env   # set Telethon, Pyrus, PostgreSQL creds, and code phrase
 # Create virtual enviroment 
 python3 -m venv .helpdesk-venv
