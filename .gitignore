@@ -1,0 +1,8 @@
+.env
+.idea/
+!docs/
+!docs/helpdesk_architecture.jpg
+*.log
+**/__pycache__/
+__pycache__/
+.DS_Store
