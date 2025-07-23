@@ -9,10 +9,6 @@ A fully asynchronous helpdesk automation tool built with Telethon for Telegram i
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Stack](https://img.shields.io/badge/stack-Telethon%20%7C%20asyncpg%20%7C%20PostgreSQL%20%7C%20httpx%20%7C%20python--dotenv%20%7C%20colorama-blue)
 
-
-# Demo 
-Link to demo
-
 ## ✨ Features
 - Tracks all incoming and outgoing Telegram messages and stores them in the database.
 - Creates a new Pyrus ticket when an operator replies and no open ticket exists.
